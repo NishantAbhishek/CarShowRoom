@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_marginTop="8dp"
+    android:layout_height="wrap_content">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ferrari"
+        android:textColor="@color/design_default_color_primary"
+        android:textSize="20dp"
+        android:textAlignment="center"
+        android:layout_marginTop="10dp"
+        android:id="@+id/cb_carModel"
+        ></TextView>
+    <ImageView
+        android:layout_gravity="center"
+        android:id="@+id/cb_carImage"
+        android:layout_width="200dp"
+        android:layout_height="150dp"
+        android:src="@drawable/carpic"
+        android:layout_marginTop="4dp"
+        ></ImageView>
+    <TextView
+        android:id="@+id/cb_carPrice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="200000"
+        android:textAllCaps="false"
+        android:textStyle="italic"
+        android:textSize="17dp"
+        android:padding="2dp"
+        android:layout_margin="5dp"
+        android:layout_marginTop="10dp"
+        android:textAlignment="center"
+        ></TextView>
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/cb_buyerName"
+        android:textSize="18dp"
+        android:hint="Write your name"
+        ></TextView>
+    <TextView
+        android:layout_marginTop="4dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/cb_buyerPhone"
+        android:textSize="15dp"
+        android:hint="ContactNumber"
+        android:inputType="number"
+        ></TextView>
+</LinearLayout>
